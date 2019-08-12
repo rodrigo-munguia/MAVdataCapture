@@ -34,9 +34,10 @@ sudo systemctl stop gpsd.socket
 
 sudo systemctl disable gpsd.socket
 
-% If gpsd not negotiate the right  baud rate, do the following:
+If gpsd not negotiate the right  baud rate, do the following:
 sudo stty -F /dev/ttyUSB0 38400
 gpsd /dev/ttyUSB0
+
 ------------------
 check gps messages
 
@@ -58,6 +59,7 @@ codigo ejemplo:
 https://github.com/jcable/gpsd/blob/master/test_gpsmm.cpp
 
 https://gist.github.com/elimpnick/8313815ac387e6757f751dc8960f03d7
+
 ---------------------------------
 
 CodeBlocks issue: Run in terminal but not in codeblocks "ld_library_path error"
