@@ -67,8 +67,16 @@ In Project -> Project build options -> Search directories -> Linker
 Select "Use project options only" in Policy
 
 ----------------------------------
-
+github
+project link:
 https://github.com/rodrigo-munguia/MAV_DataCapture.git
+
+info:
+https://www.itwriting.com/blog/11410-adding-a-visual-studio-code-workspace-to-a-github-repository.html
+
+
+
+
 
 
 
