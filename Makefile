@@ -3,7 +3,7 @@ CXX_FLAGS := -Wall -Wextra -std=c++17 -ggdb
 
 BIN		:= bin
 SRC		:= src
-INCLUDE	:= -Iinclude -I../MavLink/c_library -I/usr/local/include/opencv4/
+INCLUDE	:= -Iinclude -IMavLink/c_library -I/usr/local/include/opencv4/
 INCLUDE2 := 
 LIB		:= -Llib -L/usr/local/lib
 OPENCV = `pkg-config opencv --cflags --libs`
