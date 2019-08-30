@@ -51,7 +51,7 @@ void Camera_capture::start()
 	int result;
     int cam;
 
-    printf("Camera number: ");
+    printf("Camera number:  ");
     cin >> cam;
 
     cap.open(cam);
