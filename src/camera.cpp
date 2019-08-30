@@ -49,8 +49,12 @@ Camera_capture::Camera_capture()
 void Camera_capture::start()
 {
 	int result;
+    int cam;
 
-    cap.open(0);
+    printf("Camera number: ");
+    cin >> cam;
+
+    cap.open(cam);
     cap.set(CAP_PROP_FPS , 30);
     cap.set(CAP_PROP_FRAME_WIDTH,320);
     cap.set(CAP_PROP_FRAME_HEIGHT,240);
