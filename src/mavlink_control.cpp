@@ -142,6 +142,8 @@ top (int argc, char **argv)
 	 * Start the port and autopilot_interface
 	 * This is where the port is opened, and read and write threads are started.
 	 */
+  // XXxx
+
      int option;
      string Soption = "";
 
